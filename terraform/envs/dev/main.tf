@@ -10,7 +10,7 @@ terraform {
 
   # Replace the bucket name after you run the bootstrap step
   backend "s3" {
-    bucket         = "REPLACE-WITH-YOUR-STATE-BUCKET"
+    bucket         = "sid-tfstate-730335321410"
     key            = "dev/platform.tfstate"
     region         = "ap-south-1"
     dynamodb_table = "tf-locks"
